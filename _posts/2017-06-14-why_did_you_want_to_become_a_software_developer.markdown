@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Why did you want to become a software developer? "
+title:  "Why did you want to become a software developer?"
 date:   2017-06-14 19:03:47 -0400
 ---
 
