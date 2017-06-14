@@ -1,0 +1,21 @@
+# Site settings
+title: Developer + Mom
+header-img: img/home-bg.png
+email: meebenitez@gmail.com
+copyright_name: meebenitez
+description: > # this means to ignore newlines until "baseurl:"
+  A blog about design, code, and parenting.
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  meebenitez
+learn_profile: meebenitez
+email_username: meebenitez@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
