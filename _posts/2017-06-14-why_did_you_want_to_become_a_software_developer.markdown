@@ -23,4 +23,4 @@ Being a programmer, in my mind, represents freedom.  It’s the freedom to come 
 
 And now that I’m knee deep in the learning process and solving problems, I’m realizing becoming a programmer is an attainable goal that I’m already very passionate about.  I look forward to studying, and Code Wars katas have eaten up all my “gaming” time.  And I’m doing lots of research and creating lists of web and app projects I want to build that I think will have a positive impact on society.
 
-Who knows, if I conquer this goal, maybe I’ll also have the confidence become a polyglot. :)
+Who knows, if I conquer this goal, maybe I’ll have the confidence to also become a polyglot. :)
