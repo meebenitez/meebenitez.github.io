@@ -15,7 +15,7 @@ Technically, I’ve been in “software development” for awhile.  Video game d
 
 I’ve been doing it for 7 years, and I’ve had a decent amount of success.  It’s the job that helped me pay off my student loans, I get to be challenged creatively every day, and playing/making games for a living is genuinely fun.  
 
-But now that I’m a mom, there’s this tinier, cuter version of me that I have to take care of.  And because my glamorous games job is still technically a “9 to 5”-er, that means the little tyke has to pull an “8 to 6” shift at daycare every day to accommodate my schedule. I realize that’s normal life for families with working parents, but maybe it doesn’t have to be normal for us.
+But now that I’m a mom, there’s this tinier, cuter version of me that I need to take care of.  And because my glamorous games job is still technically a “9 to 5”-er, that means the little tyke has to pull an “8 to 6” shift at daycare every day to accommodate my schedule. I realize that’s normal life for families with working parents, but maybe it doesn’t have to be normal for us.
 
 I’ve always admired programmers (as I mentioned earlier).  I’ve always wished I had their superpowers.  I've worked alongside them in my current career.  But it was not until I “grew up” and had a kid that I, suddenly, had the drive and discipline to attempt to become one.
 
