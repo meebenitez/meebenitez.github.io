@@ -19,7 +19,7 @@ But now that I’m a mom, there’s this tinier, cuter version of me that I need
 
 I’ve always admired programmers (as I mentioned earlier).  I’ve always wished I had their superpowers.  I've worked alongside them in my current career.  But it was not until I “grew up” and had a kid that I, suddenly, had the drive and discipline to attempt to become one.
 
-Being a programmer, in my mind, represents freedom.  It’s the freedom to come up with my own ideas and build them from scratch.  It’s the freedom to work for anyone (including myself), anywhere in the world (remote work!).  It's the freedom to "sell my product, not my time" so I can be around my son more.  When I think about what I could be doing as a software developer who programs, the scenarios are endless.
+Being a programmer, in my mind, represents freedom.  It’s the freedom to come up with my own ideas and build them from scratch.  It’s the freedom to work for anyone (including myself), anywhere in the world (remote work!), in any industry.  It's the freedom to "sell my product, not my time" so I can be around my son more.  When I think about what I could be doing as a software developer who programs, the scenarios are endless.
 
 And now that I’m knee deep in the learning process and solving problems, I’m realizing becoming a programmer is an attainable goal that I’m already very passionate about.  I look forward to studying, and Code Wars katas have eaten up all my “gaming” time.  And I’m doing lots of research and creating lists of web and app projects I want to build that I think will have a positive impact on society.
 
