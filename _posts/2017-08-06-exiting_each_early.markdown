@@ -39,14 +39,14 @@ end
 I basically created a new array with all the names + a comma, then replaced the last name in the new array with the comma-less name from the first array.  
 ```
  no_comma = names_array.length - 1
-    new_names_array = []
-    names_array.each do |name|
-      new_names_array << name + ","
-    end
-    new_names_array[no_comma] = names_array[no_comma]
-    names_array[no_comma]
-    new_names_array.insert(no_comma, "and")
-    string = new_names_array.join(" ")
+ new_names_array = []
+ names_array.each do |name|
+    new_names_array << name + ","
+ end
+ new_names_array[no_comma] = names_array[no_comma]
+ names_array[no_comma]
+ new_names_array.insert(no_comma, "and")
+ string = new_names_array.join(" ")
 ```
 
 I know.  Overly complex.  But it worked.
