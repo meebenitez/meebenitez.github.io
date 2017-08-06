@@ -50,8 +50,7 @@ I know.  Overly complex.  But it worked.
 
 So after getting my kid to bed, I took another stab at trying to accomplish my original plan.  I googled "use while in .each" and found the .take method.
 
-My solution got even simpler than I'd hoped for.
-
+My solution got even simpler.
 When used with an iterator, .take will allow you to choose how many times you want to loop through the collection you're iterating on.  
 
 For example...  .take(4) takes only the first 4 entries in the collection.  Too good to be true.
