@@ -36,7 +36,20 @@ def oxford_comma(names_array)
 end
 ```
 
-I basically created a new array with all the names + a comma, then replaced the last name in the new array with the comma-less name from the first array.  I know.  Overly complex.  But it worked.
+I basically created a new array with all the names + a comma, then replaced the last name in the new array with the comma-less name from the first array.  
+```
+ no_comma = names_array.length - 1
+    new_names_array = []
+    names_array.each do |name|
+      new_names_array << name + ","
+    end
+    new_names_array[no_comma] = names_array[no_comma]
+    names_array[no_comma]
+    new_names_array.insert(no_comma, "and")
+    string = new_names_array.join(" ")
+```
+
+I know.  Overly complex.  But it worked.
 
 So after getting my kid to bed, I took another stab at trying to accomplish my original plan.  I googled "use while in .each" and found the .take method.
 
