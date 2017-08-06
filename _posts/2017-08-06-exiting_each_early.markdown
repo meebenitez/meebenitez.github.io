@@ -5,9 +5,9 @@ date:   2017-08-06 03:22:38 -0400
 ---
 
 
-For the Oxford Comma procedural ruby lab I wrote some pretty cumbersome code.  If you don't remember that lab, whis was the task:
+For the Oxford Comma procedural ruby lab I wrote some pretty cumbersome code.  If you don't remember that lab, this was the task:
 
-> Write a method oxfordcomma that takes an argument array of string elements and converts it into a string using the Oxford comma. For example, the array ["fiddleheads","okra","kohlrabi"] should get converted to the string "fiddleheads, okra, and kohlrabi". <
+> Write a method oxfordcomma that takes an argument array of string elements and converts it into a string using the Oxford comma. For example, the array ["fiddleheads","okra","kohlrabi"] should get converted to the string "fiddleheads, okra, and kohlrabi". 
 
 It bugged me quite a bit because in my head I knew a simpler solution than what I'd eventually submitted, but I couldn't quite make it work given my constraints (... and by constraints I mean I was trying to code on my Macbook air in the middle of an indoor playground surrounded by a dozen screaming toddlers, one of them mine.)
 
