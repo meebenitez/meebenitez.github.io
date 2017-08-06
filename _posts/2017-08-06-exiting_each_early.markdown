@@ -54,7 +54,7 @@ My solution got even simpler.
 
 When used with an iterator, .take will allow you to choose how many times you want to loop through the collection you're iterating on.  
 
-For example...  .take(4) takes only the first 4 entries in the collection.  Too good to be true.
+For example...  .take(4) takes only the first 4 entries in the collection. Awesome!
 
 So here was my second attempt at Oxford_Comma:
 
