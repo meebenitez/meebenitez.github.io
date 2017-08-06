@@ -44,9 +44,6 @@ I basically created a new array with all the names + a comma, then replaced the 
     new_names_array << name + ","
  end
  new_names_array[no_comma] = names_array[no_comma]
- names_array[no_comma]
- new_names_array.insert(no_comma, "and")
- string = new_names_array.join(" ")
 ```
 
 I know.  Overly complex.  But it worked.
