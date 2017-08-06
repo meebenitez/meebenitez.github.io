@@ -7,13 +7,13 @@ date:   2017-08-06 03:22:38 -0400
 
 For the Oxford Comma procedural ruby lab I wrote some pretty cumbersome code.  If you don't remember that lab, whis was the task:
 
-> Write a method oxfordcomma that takes an argument array of string elements and converts it into a string using the Oxford comma. For example, the array ["fiddleheads","okra","kohlrabi"] should get converted to the string "fiddleheads, okra, and kohlrabi". 
+> Write a method oxfordcomma that takes an argument array of string elements and converts it into a string using the Oxford comma. For example, the array ["fiddleheads","okra","kohlrabi"] should get converted to the string "fiddleheads, okra, and kohlrabi". <
 
 It bugged me quite a bit because in my head I knew a simpler solution than what I'd eventually submitted, but I couldn't quite make it work given my constraints (... and by constraints I mean I was trying to code on my Macbook air in the middle of an indoor playground surrounded by a dozen screaming toddlers, one of them mine.)
 
-I wanted to use the .each iterator and add a comma to all names in the array but I thought that might require a while loop with a counter, which I couldn't quite get to work in my test cases (at one point I was looping the each, and then eaching the loop).
+I wanted to use the .each iterator and add a comma to all names in the array BUT the last name, and I thought that might require a while loop with a counter.  Unfortunately, I couldn't quite get to work in my test cases (at one point I was looping the each, and then eaching the loop).
 
-So in the limited time I had to complete the lab under loud circumstances, this is the chunky solution I ended up with:
+So in the limited time I had to complete the lab, this is the chunky solution I ended up with:
 
 ```
 def oxford_comma(names_array)
