@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Exiting .each early"
-date:   2017-08-06 07:22:38 +0000
+title:  "Using .take to exit .each early"
+date:   2017-08-06 03:22:38 -0400
 ---
 
 
