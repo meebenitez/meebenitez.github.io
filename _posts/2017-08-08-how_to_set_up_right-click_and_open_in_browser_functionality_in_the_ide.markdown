@@ -24,7 +24,7 @@ So here you go...
 
 And that's it!  You won't even need to restart the IDE.
 
-Now, when you right click on an html file, you'll see this:
+Now, when you right click on an html file, you'll see an option to "Open in Browser."
 
 ![](http://imgur.com/M8NJl9x)
 
