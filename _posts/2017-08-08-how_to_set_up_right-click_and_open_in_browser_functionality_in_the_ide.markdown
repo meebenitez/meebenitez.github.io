@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to set up right-click and Open in Browser functionality in the IDE"
+title:  "How to install Open-in-Browser"
 date:   2017-08-08 01:17:49 -0400
 ---
 
