@@ -9,7 +9,7 @@ Httpserver was often not super responsive for me and slowed down my iteration ti
 
 This package allows you to view your html files locally by right-clicking on the file in the IDE tree and select "Open in Browser."
 
-I've run into a small handful of people in the help box who didn't know about this handy feature, and after walking them through the install, I figured I could save a lot of time by just posting those instructions in my blog. 
+I've run into a few people in the help box who didn't know about this handy feature, and after walking them through the install, I figured I could save a lot of time by just posting those instructions in my blog. 
 
 So here you go...
 
