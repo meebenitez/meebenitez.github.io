@@ -15,11 +15,11 @@ So here you go...
 
 1.  In the file menu of the IDE, select "Settings" (or, press Ctrl + Comma)
 2.  Your main window will split in two.   At the bottom of the left pain, you'll see an "+ Install" option.  Select it!
-![http://imgur.com/5BpNrN9](http://imgur.com/5BpNrN9)
+![](http://imgur.com/5BpNrN9)
 3. This will bring up a window with a search bar in the right pane.  In the search bar, type in "Open in Browser" and hit Enter.
-![http://imgur.com/5BpNrN9](http://imgur.com/BaD0Q3i)
+![](http://imgur.com/BaD0Q3i)
 4. You'll now have a list of results from your search.  Scroll down to the package called "Open-in-browser" by user magbicaleman and select "Install"
-![http://imgur.com/5BpNrN9](http://imgur.com/FlFJMiV)
+![](http://imgur.com/FlFJMiV)
 
 
 And that's it!  You won't even need to restart the IDE.
