@@ -5,7 +5,7 @@ date:   2017-08-08 01:17:49 -0400
 ---
 
 
-Httpserver was often not super responsive for me and slowed down my iteration time, so I was thrilled when a Lean expert pointed me in the direction of an awesome little package called "Open-in-Browser" for atom.
+Httpserver was often not super responsive for me and slowed down my iteration time, so I was thrilled when a Learn expert pointed me in the direction of an awesome little package called "Open-in-Browser" for atom.
 
 This package allows you to view your html files locally by right-clicking on the file in the IDE tree and select "Open in Browser."
 
