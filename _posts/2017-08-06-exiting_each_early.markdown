@@ -78,3 +78,27 @@ I used .take to stop my .each method of adding commas at the second to last name
 To learn more about .take I recommend this page over at RubyCuts --> [Take Method](http://www.rubycuts.com/developer-resources/ruby-enumerable-module/take-method/)
 
 And to learn more about using the .take method with the .each method, check out this Stack Overflow post -> [Escaping the .each iterator early in Ruby](https://stackoverflow.com/questions/1568288/escaping-the-each-iteration-early-in-ruby)
+
+
+--------------------------------
+***EDIT*** Here is my 3rd solution (this time using a While Loop)
+
+```
+def oxford_comma(names_array)
+  if names_array.length == 1
+    string = names_array.join
+  elsif names_array.length == 2
+    string = names_array.join(" and ")
+  else
+     i = 0
+     while i < names_array.length - 1
+       names_array[i] = names_array[i] + ","
+       i += 1
+     end
+    names_array.insert(names_array.length - 1, "and")
+    string = names_array.join(" ")
+  end
+  string
+end
+
+```
