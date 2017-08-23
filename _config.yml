@@ -4,7 +4,7 @@ header-img: img/home-bg.png
 email: meebenitez@gmail.com
 copyright_name: meebenitez
 description: > # this means to ignore newlines until "baseurl:"
-  A blog about design, code, and parenting.
+  practical thoughts
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  meebenitez
