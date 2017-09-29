@@ -105,7 +105,7 @@ Overall, I went over my time-budget on this project, but I'm thrilled to have di
 
 That being said, I know there are plenty of bugs buried in the gem, and my next step would be to build some tests to catch them.  I would first try to hook up a more efficient method for data sourcing so that I'm not slamming these unsuspecting websites with hundreds of hits at a time.  There are also plenty of opportunities for moving some of my code into modules.
 
-But for now I'm quite happy with this first implementation and I look forward to revisiting it when I get a chance and possibly building it out into something live and awesome.
+Bugs and all, I'm quite happy with this first implementation and I look forward to revisiting it when I get a chance and possibly building it out into something live and awesome.
 
 
 
