@@ -13,7 +13,7 @@ That being said, I found my extensive experience utilizing rapid iterative devel
 
 I wasn’t sure how the gem was going to work at first, and if it was even doable with my limited knowledge of programming. So I built an early prototype of just the barebones features the quickest and easiest way I could think of… with hashes and long form if/else statements.
 
-**With rapid iterative development, you build with the tools and knowledge you feel most comfortable with to quickly test out your concept.  You want to be able to identify and bail on a bad idea sooner rather than later.
+**With rapid iterative development, you build with the tools and knowledge you feel most comfortable with to quickly test out your concept.  You want to be able to identify and bail on a bad idea sooner rather than later.**
 
 I first spent half a day researching sites that I could scrape from, because if I couldn't find enough content, my gem was going to fail.  When I found a successful scrape, I set aside the parsing code for later use.
 
