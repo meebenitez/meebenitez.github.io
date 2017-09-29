@@ -21,13 +21,13 @@ And then I spent a day designing/building the concept of narrowing down a list b
 
 After a couple days of "tinkering," my direction had solidified.  I felt more confident in my idea, and so I started to rebuild the architecture of my gem using objects.  I'm glad that I didn't start out working with objects right away because my confidence level was still a bit shaky around them and I think I would have abandoned ship and chosen a simpler project, not knowing what I was capable of.  **Seeing a working early prototype of my idea was motivating enough to help push me through later challenges.**
 
-This point of commitment, when I switched everything over to a mover "object oriented" structure, is where I jumped down the rabbit hole.  I'd budgeted myself 1 week to do this project, so, at day 4, if I was going to come face-to-face with a regret, I'd have to compromise or make cuts without changing direction.  This is why it's so critical to work out your fundamental ideas early so you're not in a position to make the detrimental decision to keep something that should be cut simply because of the time invested in it.
+This point of commitment (when I switched everything over to a more "object oriented" structure), is where I truly leapt into the point of no-return.  I'd budgeted myself 1 week to do this project, so, at day 4, if I was going to come face-to-face with a regret, I'd have to compromise or make cuts without changing direction.  This is why it's so critical to work out your fundamental ideas early so you're not in a position to make the detrimental decision to keep something that should be cut simply because of the time invested in it.
 
 I treated each portion of my program as a "feature."  I would build something to the point of "just working," build an interacting feature, and then find that the previous feature would likely need an iteration because of the new interaction.  I did ZERO polish until the last 2 days of development.
 
 Also, throughout this project, I tested, and tested often.  This is a key tenant in the church of rapid iterative development.  If I broke this rule and just "built" without testing for a long period of time, I ALWAYS paid for it in having to cut or rewrite what I'd wrote.  There was one day when I was trying to take advantage of my kid's last day of daycare, so I parked myself at a coffee shop after dropping him off and feverishly worked to build as much as I could.  I made the mistake of building for four hours without **thoroughly** testing, and toward the end of the day I realized I had 30 lines of useless code that I needed to replace.  It was a dark moment.  Despite the many years experience that I have in rapid iterative development, I still make this mistake.  **Never iterate without testing.**  You'd be surprised how many game developers still don't understand this.
 
-I wrapped up this project at around day eight.  How did I know when it was done?  The simple answer is... it's not done.  But I know it's a decent working prototype because when I test it I find it useful, and I can imagine it being modified into a successful web app.  At this point, it's a proof-of-concept that should be implemented with a data-sourcing method more efficient than web scraping.  
+I wrapped up this project at around day eight.  How did I know when it was done?  The simple answer is... it's not done.  But I know it's a decent working prototype because when I test it I find it useful, and I can imagine it being modified into a successful web app.  But at this point, it's a proof-of-concept that should be implemented with a data-sourcing method more efficient than web scraping.  
 
 **Here are some of the problems I ran into during development and how I solved them...
 **
@@ -35,7 +35,7 @@ I wrapped up this project at around day eight.  How did I know when it was done?
 --"The power switch"--
 I was originally storing an array of "cities" that fit the user's choices.  Each time a priority was picked, I would have to compare that array against all the existing City objects to grab the array cities' attributes.  It was insanely slow.
 
-I solved this by creating an "on/off" switch attribute, where a city that still fit's the user's chosen criteria is turned "on," but when it no longer fits it's turned off.  I was pretty proud of this solution since it was very "Object Oriented." :)
+I solved this by creating an "on/off" switch attribute, where a city that still fits the user's chosen criteria is turned "on," but when it no longer fits it's turned off.  I was pretty proud of this solution since it was very "Object Oriented." :)
 
 
 ```
@@ -65,6 +65,7 @@ def pick_priority(state)
   end
 ```
 
+
 --"Handling cases when a nil value was scraped, or a page returns a 404 error."--
 
 When I'd written enough "priority" methods to heavily test the web scraping, I started running into errors.  
@@ -93,8 +94,8 @@ I simply checked to see if the value existed:
 
 ```
 if median_income
-        median_income.gsub(/[$,mM]/, '').to_i < 55775 ? city.median_income = median_income : turn_city_off(city)
-      end
+   median_income.gsub(/[$,mM]/, '').to_i < 55775 ? city.median_income = median_income : turn_city_off(city)
+end
 ```
 
 **A Quick Post-mortem
@@ -104,7 +105,7 @@ Overall, I went over my time-budget on this project, but I'm thrilled to have di
 
 That being said, I know there are plenty of bugs buried in the gem, and my next step would be to build some tests to catch them.  I would first try to hook up a more efficient method for data sourcing so that I'm not slamming these unsuspecting websites with hundreds of hits at a time.  There are also plenty of opportunities for moving some of my code into modules.
 
-But for now I'm quite happy with its first implementation and I look forward to revisiting it when I get a chance and possibly building it out into something live and awesome.
+But for now I'm quite happy with this first implementation and I look forward to revisiting it when I get a chance and possibly building it out into something live and awesome.
 
 
 
