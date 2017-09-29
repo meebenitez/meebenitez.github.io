@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Rapid Iterative Development: the steps to completing my first CLI gem"
-date:   2017-09-29 05:46:57 +0000
+date:   2017-09-29 01:46:57 -0400
 ---
 
 # 
@@ -43,7 +43,7 @@ home_price.gsub(/[$,mM]/, '').to_i < user_budget ? city.avg_home_price = home_pr
 --"Dynamic lists"--
 More than once I found myself in need of a dynamic "option" list that would delete an option once a user chose it.  
 
-I ended up writing the options in either a hash or an array, and then iterating with index through them to generate the list.  When an option was removed, the list would appear to dynamically update.
+I ended up writing the options in either a hash or an array, and then iterating with index through them to generate the list.  When an option was removed, the list would appear to have been dynamically updated the next time I used it.
 
 
 ```
