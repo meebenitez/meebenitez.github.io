@@ -29,8 +29,7 @@ Also, throughout this project, I tested, and tested often.  This is a key tenant
 
 I wrapped up this project at around day eight.  How did I know when it was done?  The simple answer is... it's not done.  But I know it's a decent working prototype because when I test it I find it useful, and I can imagine it being modified into a successful web app.  But at this point, it's a proof-of-concept that should be implemented with a data-sourcing method more efficient than web scraping.  
 
-**Here are some of the problems I ran into during development and how I solved them...
-**
+**Here are some of the problems I ran into during development and how I solved them...**
 
 --"The power switch"--
 I was originally storing an array of "cities" that fit the user's choices.  Each time a priority was picked, I would have to compare that array against all the existing City objects to grab the array cities' attributes.  It was insanely slow.
