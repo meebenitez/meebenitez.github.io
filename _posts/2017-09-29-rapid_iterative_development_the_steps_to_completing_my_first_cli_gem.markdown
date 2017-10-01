@@ -102,7 +102,7 @@ end
 
 Overall, I went over my time-budget on this project, but I'm thrilled to have discovered that I can program something that I designed from scratched.  I set out to make this gem "somewhat" useful, insightful, and customizable, and I think I was "somewhat" successful.
 
-That being said, I know there are plenty of bugs buried in the gem, and my next step would be to build some tests to catch them.  I would first try to hook up a more efficient method for data sourcing so that I'm not slamming these unsuspecting websites with hundreds of hits at a time.  There are also plenty of opportunities for moving some of my code into modules.
+That being said, I know there are plenty of bugs buried in the gem, and my next step would be to build some tests to catch them.  I would first try to hook up a more efficient method for data sourcing so that I'm not slamming these unsuspecting websites with hundreds of hits at a time.  I'm currently looking into the US Census Bureau API.  There are also plenty of opportunities for moving some of my code into modules.
 
 Bugs and all, I'm quite happy with this first implementation and I look forward to revisiting it when I get a chance and possibly building it out into something live and awesome.
 
