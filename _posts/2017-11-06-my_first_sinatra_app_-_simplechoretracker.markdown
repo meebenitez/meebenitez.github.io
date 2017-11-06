@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "My first Sinatra App - "SimpleChoreTracker""
+title:      "SimpleChoreTracker, my first Sinatra App"
 date:       2017-11-06 10:50:30 -0500
 permalink:  my_first_sinatra_app_-_simplechoretracker
 ---
