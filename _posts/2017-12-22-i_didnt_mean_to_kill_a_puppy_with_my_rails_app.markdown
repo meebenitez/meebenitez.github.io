@@ -12,7 +12,7 @@ About 3 days into my Rails project I came across this article on Medium titled "
 
 Well.... sorry.  I was already knee-deep in.  What could I do?
 
-I didn't choose to build "Simple Tidy" (a chore tracking app) to kill puppies, and I apologize if the market is oversaturated.  But you see, ever since I started this program at Flatiron the state of my apartment has been an absolute nightmare.  In my desperation, I remembered this housekeeping tip that my son's old home daycare teacher once told me about... "Make a list with Daily, Weekly, Chores.  Complete all the daily chores, and then do 1-2 Weekly chores a day, and at least 1 Monthly chore a week.  Simple as that."
+I didn't choose to build "Simple Tidy" (a chore tracking app) to kill puppies, and I apologize if the market is oversaturated.  But you see, ever since I started this program at Flatiron the state of my apartment has been an absolute nightmare.  In my desperation, I remembered this housekeeping tip that my son's old home daycare teacher once told me about... "Make a list with daily, weekly, and monthly chores.  Complete all the daily chores, and then do 1-2 weekly chores a day, and at least 1 monthly chore a week.  Simple as that."
 
 And let me tell you, this woman ran a home daycare with 8 kids by herself on a 5 acre farm with 4 children of her own and her house was IMMACULATE.  Every day it looked like it could be featured in "Better Homes and Gardens."
 
