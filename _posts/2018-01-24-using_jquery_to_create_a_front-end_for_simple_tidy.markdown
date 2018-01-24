@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Using JQuery to create a front-end for Simple Tidy"
-date:       2018-01-24 16:51:04 +0000
+date:       2018-01-24 11:51:04 -0500
 permalink:  using_jquery_to_create_a_front-end_for_simple_tidy
 ---
 
@@ -40,9 +40,11 @@ Ajax was pretty slick in allowing me to pass information back and forth from the
 
 Overall, like all the projects, implementation was less intimidating once I dove in and got my hands dirty, probably because working on my ideas as opposed to arbitrary lab examples is a lot more interesting.  I'm looking forward to rebuilding this using React after graduation!
 
+[SimpleTidyV2 @ Github](https://github.com/meebenitez/SimpleTidyV2/)
+
 On to the next challenge...
 
-[SimpleTidyV2 @ Github](https://github.com/meebenitez/SimpleTidyV2/)
+
 
 
 
