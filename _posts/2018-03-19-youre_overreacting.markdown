@@ -90,7 +90,7 @@ export default PopulationFilter;
 
 Obviously a lot more went in to this app, including getting React & Redux to play nicely with Devise authentication,  dynamically rendering my filter components and moving them between "active" and "inactive" states, creating front-end pagination to work with my server-side pagination (from scratch!), creating a "heart it" system to allow the user to save cities, and more! 
 
-This app is my most ambitious project yet and I'm quite proud of how far it's come. Now check back with me in a month and hopefully I'll have it live with loads more data, a dozen more filters, zillow listings, and a happy user base.  
+This app is my most ambitious project yet and I'm quite proud of how far it's come. Now check back with me in a month and hopefully I'll have it live with loads more data, a dozen more filters, a search box, zillow listings, and a happy user base.  
 
 Thanks!
 
