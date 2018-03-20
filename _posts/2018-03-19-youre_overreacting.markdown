@@ -40,12 +40,12 @@ Cities_Controller.rb
 
 ```
 def index
-        @cities = City.where(nil)
-        @cities = @cities.by_region(params[:region]) if params[:region].present?
-        @cities = @cities.by_population(params[:pop_from], params[:pop_to]) if params[:pop_from].present?
-        @cities = @cities.by_age(params[:age_from], params[:age_to]) if params[:age_from].present?
-        @cities = @cities.by_home_price(params[:home_price_from], params[:home_price_to]) if params[:home_price_from].present?
-        render json: @cities, status: 200
+    @cities = City.where(nil)
+    @cities = @cities.by_region(params[:region]) if params[:region].present?
+    @cities = @cities.by_population(params[:pop_from], params[:pop_to]) if params[:pop_from].present?
+    @cities = @cities.by_age(params[:age_from], params[:age_to]) if params[:age_from].present?
+    @cities = @cities.by_home_price(params[:home_price_from], params[:home_price_to]) if params[:home_price_from].present?
+    render json: @cities, status: 200
     end
 
 ```
