@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "You're overReacting!"
-date:       2018-03-20 01:55:24 +0000
+title:      "overReacting"
+date:       2018-03-19 21:55:25 -0400
 permalink:  youre_overreacting
 ---
 
